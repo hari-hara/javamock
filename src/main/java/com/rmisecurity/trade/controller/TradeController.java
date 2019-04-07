@@ -13,9 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.rmisecurity.trade.model.StockTransaction;
 import com.rmisecurity.trade.service.TradeTwoService;
 
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@EnableSwagger2
 @CrossOrigin
 @RestController
-@RequestMapping("rmisecurity") 
+@RequestMapping("/rmisecurity") 
 public class TradeController {
 	
 	

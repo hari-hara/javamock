@@ -14,7 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.rmisecurity.trade.model.TradeOneModel;
 import com.rmisecurity.trade.service.TradeOneService;
 
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+
+@EnableSwagger2
 @RestController
 public class TradingOneController {
 
